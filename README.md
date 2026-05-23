@@ -10,7 +10,7 @@ TravelIQ is an end-to-end intelligent travel planning system that takes a destin
 - **DistilBERT sentiment analysis** — review quality scoring across thousands of Google Places reviews
 - **SARIMAX crowd prediction** — historical crowd-level forecasting per attraction type and time slot
 - **GPT-4o feasibility audit** — post-scheduling LLM verification that catches timing conflicts and enriches descriptions
-- **Weather-aware scheduling** — OpenWeatherMap 5-day forecast + historical averages; rain/cold adjusts activity order and meal timing
+- **Weather-aware scheduling** — OpenMeteo forecast + historical averages; rain/cold adjusts activity order and meal timing
 - **Real travel-time enforcement** — Google Distance Matrix API used for an N×N matrix; every transition enforces actual drive/walk/transit minutes
 - **Meal insertion** — breakfast, lunch, and dinner slotted around attractions with 3-hour minimum gap enforcement and duplicate detection
 - **Gap filling** — unused high-rated attractions are automatically inserted into schedule gaps > 60 min before falling back to a free-time placeholder (capped at 60 min)
