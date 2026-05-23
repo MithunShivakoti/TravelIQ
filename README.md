@@ -196,7 +196,7 @@ User Input
 | Outfit classifier | scikit-learn pipeline (Random Forest / Gradient Boosting) |
 | Outfit images | FLUX.1-schnell via Hugging Face Inference API |
 | Maps & travel | Google Places API, Google Distance Matrix API |
-| Weather | OpenWeatherMap API |
+| Weather | OpenMeteo API |
 | LLM audit/enrich | OpenAI GPT-4o |
 | Frontend | Vanilla JS, SSE streaming, CSS custom properties |
 
